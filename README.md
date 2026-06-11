@@ -7,7 +7,7 @@ COMP 442 Machine Learning Project
 - Carlos Bautista
 - Finn Bishop
 - Haley Kenney
-- Patrick Banting
+
 
 ## Project Goal
 Build a machine learning system that can detect spam and phishing messages using natural language processing techniques.
