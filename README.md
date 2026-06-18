@@ -8,7 +8,7 @@ COMP 442 Machine Learning Project
 * Carlos Bautista
 * Finn Bishop
 * Haley Kenney
-* Patrick Banting
+
 
 ## Project Goal
 
