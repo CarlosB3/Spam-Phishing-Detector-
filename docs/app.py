@@ -1,6 +1,9 @@
 import streamlit as st
 import joblib
 
+st.write(os.getcwd())
+st.write(os.listdir())
+
 # Load the trained model and TF-IDF vectorizer
 model = joblib.load("spam_classifier.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")
