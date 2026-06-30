@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+import os
 
 # Load the trained model and TF-IDF vectorizer
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
