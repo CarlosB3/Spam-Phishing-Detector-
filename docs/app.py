@@ -6,8 +6,10 @@ st.write(os.getcwd())
 st.write(os.listdir())
 
 # Load the trained model and TF-IDF vectorizer
-model = joblib.load("spam_classifier.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, "spam_classifier.pkl"))
+vectorizer = joblib.load(os.path.join(BASE_DIR, "tfidf_vectorizer.pkl"))
 
 # Page configuration
 st.set_page_config(
